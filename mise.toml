@@ -1,0 +1,5 @@
+[tools]
+node = "22.15.1"
+"npm:prettier" = "3.5.3"
+python = "3.12.11"
+uv = "0.7.13"
