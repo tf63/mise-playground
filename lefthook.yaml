@@ -11,15 +11,15 @@ pre-commit:
                 - merge
                 - rebase
 
-        biome:
-            priority: 2
-            glob: '*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}'
-            run: |
-                biome check {staged_files} --write
-            stage_fixed: true
-            skip:
-                - merge
-                - rebase
+        # biome:
+        #     priority: 2
+        #     glob: '*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}'
+        #     run: |
+        #         biome check {staged_files} --write
+        #     stage_fixed: true
+        #     skip:
+        #         - merge
+        #         - rebase
 
 post-merge:
     commands:
