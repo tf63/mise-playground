@@ -1,4 +1,4 @@
-# mise を試してみる
+# miseを試してみる
 
 https://zenn.dev/tf63/scraps/0691e7c1244fba
 
